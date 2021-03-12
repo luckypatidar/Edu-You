@@ -1,0 +1,79 @@
+.card_base {
+  position: relative;
+  background: #fff;
+  transition: all 0.3s ease;
+  z-index: 1;
+  overflow: hidden;
+  height: 100%;
+}
+
+.card_base.dark {
+  box-shadow: inset 0 0 0 1000px rgba(rgb(40, 40, 50), 0.8);
+}
+
+.rectangle.animated {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 1s ease;
+  display: none;
+}
+
+.rectangle.animated.slide_right {
+  display: flex;
+  top: 0;
+  right: -100%;
+}
+.card_base:hover .rectangle.animated.slide_right {
+  right: 0;
+}
+
+.rectangle.animated.slide_left {
+  display: flex;
+  top: 0;
+  left: -100%;
+}
+.card_base:hover .rectangle.animated.slide_left {
+  left: 0;
+}
+
+.rectangle.animated.slide_top {
+  display: flex;
+  top: -100%;
+  left: 0;
+}
+.card_base:hover .rectangle.animated.slide_top {
+  top: 0;
+}
+
+.rectangle.animated.slide_bottom {
+  display: flex;
+  bottom: -100%;
+  left: 0;
+}
+.card_base:hover .rectangle.animated.slide_bottom {
+  bottom: 0;
+}
+
+.rectangle.animated.fade {
+  display: flex;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.card_base:hover .rectangle.animated.fade {
+  opacity: 1;
+}
+
+.rectangle.animated.scale {
+  display: flex;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: scale(0);
+}
+.card_base:hover .rectangle.animated.scale {
+  opacity: 1;
+  transform: scale(1);
+}

@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  & h1 {
+    margin: 2rem 0 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.4;
+    // border: 1px solid #fff;
+    padding: 4rem 8rem;
+    letter-spacing: 3px;
+    text-align: center;
+
+    & b {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header h1 {
+    padding: 3rem;
+    margin: 12rem 0 7rem;
+  }
+}

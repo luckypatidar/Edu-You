@@ -1,0 +1,178 @@
+.wrapper {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+.modal {
+  position: relative;
+  width: 70%;
+  max-width: 60rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+
+  & > i {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #000;
+    font-size: 2rem;
+    z-index: 1000;
+    cursor: pointer;
+  }
+}
+
+.form {
+  position: relative;
+}
+
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: 500;
+  color: rgb(92, 228, 114);
+  font-size: 1.2rem;
+}
+
+.status.error {
+  color: red;
+}
+
+.contact_form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  & h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+
+  & input,
+  & textarea {
+    padding: 2rem 1.6rem;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+
+    &::placeholder {
+      font-size: 1.2rem;
+      font-family: "Poppins", sans-serif;
+      transition: all 0.3s ease;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: rgb(235, 235, 235);
+    }
+
+    &:focus::placeholder {
+      opacity: 0.5;
+    }
+  }
+
+  & .checkbox_group {
+    display: block;
+    position: relative;
+    padding-left: 4.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 3rem;
+
+    &:hover input ~ .checkmark {
+      background-color: rgb(235, 235, 235);
+    }
+
+    & p {
+      font-size: 1.2rem;
+      transform: translateY(4px);
+      line-height: 1.4;
+    }
+
+    & input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked ~ .checkmark {
+        background-color: rgb(235, 235, 235);
+
+        &:after {
+          display: block;
+        }
+      }
+    }
+
+    & .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2.5rem;
+      width: 2.5rem;
+      background-color: rgb(245, 245, 245);
+      transition: all 0.3s ease;
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: none;
+
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 1rem;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .modal {
+    width: 90%;
+  }
+
+  .contact_form {
+    & h4 {
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+
+    & .checkbox_group {
+      margin-bottom: 1rem;
+    }
+  }
+}

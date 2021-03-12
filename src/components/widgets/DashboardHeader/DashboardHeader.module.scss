@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  
+    & h1 {
+      margin: 10rem 0 15rem;
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: 1.4;
+      border: 1px solid #fff;
+      padding: 4rem 8rem;
+      letter-spacing: 3px;
+      text-align: center;
+  
+      & b {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .header h1 {
+      padding: 3rem;
+      margin: 12rem 0 7rem;
+    }
+  }
+  
+//   .bg{
+//     background-image: url("./bg.jpg");
+//   }
+
+
+.btndiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 50px;
+  width: 100px;
+  // cursor: pointer;
+}
+
+.Button{
+  display : block;
+  background-color: #047BD5;
+  width: 100px;
+  height: fit-content;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  &:hover {
+      background-color:  #3ea3f0;
+  }
+}

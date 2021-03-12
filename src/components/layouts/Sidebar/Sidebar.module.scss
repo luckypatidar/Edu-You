@@ -1,0 +1,95 @@
+.wrapper {
+  &>div:last-of-type {
+    display: none;
+  }
+
+  &.show .sidebar {
+    right: 0;
+  }
+
+  &.show>div:last-of-type {
+    display: block;
+  }
+}
+
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  top: 0;
+  right: -30rem;
+  position: fixed;
+  height: 100vh;
+  width: 30rem;
+  background-color: #fff;
+  z-index: 300;
+  transition: all 1s ease;
+  padding: 5rem 2.5rem 0;
+}
+
+.menu {
+  margin: 3rem 0;
+
+  & a {
+    position: relative;
+    padding: 2rem 0;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+
+  & i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgb(240, 240, 240);
+    }
+  }
+
+  & li ul {
+    overflow: hidden;
+    transition: all 1s ease;
+    padding-left: 2rem;
+
+    & a {
+      padding: 0.7rem 0;
+      font-size: 1rem;
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+  }
+}
+
+.btn_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+@media (max-width: 35rem) {
+  .sidebar {
+    width: 100%;
+    right: -100%;
+  }
+}

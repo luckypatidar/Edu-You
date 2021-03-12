@@ -1,0 +1,81 @@
+.button {
+  
+    position:relative;
+    
+    padding:0;
+    // width:150px;
+    // height:40px;
+    
+    border:4px solid #888888;
+    outline:none;
+    text-align: center;
+    background-color:#F8E831;
+    border-radius: 40px;
+    box-shadow:  -6px -6px 2px #ffffff, -2px -3px 4px #ffffff, -2px 0px 6px #ffffff, -1px -6px -7px rgba(0,0,0,0.2);
+    transition: .13s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+    &:active{
+      box-shadow:none;
+      .button__content{
+        box-shadow: none;
+        .button__text, .button__icon{
+          transform:translate3d(0px, 0px, 0px);
+        }
+      }
+    }
+
+  &:after {
+    content: attr(data-after);
+    font-family: "Line Awesome Free";
+    font-weight: 900;
+  }
+
+  &:before {
+    content: attr(data-before);
+    font-family: "Line Awesome Free";
+    font-weight: 900;
+  }
+}
+
+.button.text {
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  &:after {
+    margin-left: 0.5rem;
+  }
+
+  &:before {
+    margin-right: 0.5rem;
+  }
+}
+
+.button.text.small {
+  padding: 1.2rem 1.8rem;
+  border: 1px solid #fff;
+  font-weight: 500;
+}
+
+.button.round {
+  border-radius: 5rem;
+}
+
+.button.icon {
+  flex-shrink: 0;
+  width: 4.2rem;
+  height: 4.2rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.button.icon.small {
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 1.4rem;
+}
