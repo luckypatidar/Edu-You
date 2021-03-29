@@ -11,7 +11,10 @@ import {
 import { Header, Sidebar, Footer } from "./components/layouts";
 import { Spinner } from "./components/elements";
 import { useCustomState } from "./state/state";
-import Dashboard from "./components/pages/Dashboard/Dashboard";
+import Dashboard from "./components/widgets/Division/Main.jsx";
+import Dummy from './components/widgets/Subject/Main.jsx';
+import Chapter from './components/widgets/Chapter/Main.jsx';
+import Topic from './components/widgets/Topic/Main.jsx';
 
 export default () => {
   const [state, actions] = useCustomState();
@@ -34,6 +37,9 @@ export default () => {
           <Route path="/contacts" exact component={Contacts} />
           <Route path="/signin" exact component={SignIn} />
           <Route path="/dashboard" exact component={Dashboard} />
+          <Route path="/class/:id" component={Dummy} />
+          <Route path="/subject/:id" component={Chapter} />
+          <Route path="/topic/:id" component={Topic} />
         </Switch>
         <Footer />
       </Fragment>

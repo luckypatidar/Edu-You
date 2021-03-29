@@ -39,13 +39,13 @@ export default (props) => {
                     </Button>
                 </div>
                 <div className={styles.header}>
-                    <h1>Edu-You</h1>
+                    <h1>Dashboard</h1>
 
                 </div>
             </Layout>
-            <p style={{ fontSize: "30px", marginTop: "200px", textAlign: "center", marginBottom: "200px", fontWeight: "bolder" }}>
+            {/* <p style={{ fontSize: "30px", marginTop: "200px", textAlign: "center", marginBottom: "200px", fontWeight: "bolder" }}>
                 <YoutubeVideo data={state.data.youtubelink} />
-            </p>
+        </p>  */}
 
         </>
     );

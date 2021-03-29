@@ -11,8 +11,8 @@ export default ({ data = [] }) => {
         .map((item, index) => (
 
             <div key={index}>
+                <h2 className={styles.heading}>{item.heading}</h2>
                 <div className={styles.wrapper}>
-                    <h2>{item.heading}</h2>
                     <YouTube videoId={youtube_parser(item.link)} opts={opts} />
                 </div>
             </div>
@@ -20,8 +20,8 @@ export default ({ data = [] }) => {
 
 
     const opts = {
-        height: '390',
-        width: '640',
+        height: 'auto',
+        width: 'auto',
         playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 1,

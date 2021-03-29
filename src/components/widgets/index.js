@@ -9,6 +9,7 @@ import WelcomeDialog from './WelcomeDialog/WelcomeDialog';
 import DashboardHeader from './DashboardHeader/DashboardHeader';
 import HeaderDashboard from './HeaderDashboard/HeaderDashboard.js';
 import YoutubeVideo from './YoutubeVideo/YoutubeVideo';
+import Category from './Category/Category';
 
 export {
   Chooseus,
@@ -22,4 +23,5 @@ export {
   DashboardHeader,
   HeaderDashboard,
   YoutubeVideo,
+  Category
 };

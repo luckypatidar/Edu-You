@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import { Header, Contacts } from "../../widgets";
 import { useCustomState } from "../../../state/state";
+import { Header, Contacts } from "../../widgets";
 import HeaderData from '../../layouts/Header/Header';
 
 export default () => {

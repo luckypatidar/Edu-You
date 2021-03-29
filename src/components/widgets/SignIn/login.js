@@ -193,7 +193,7 @@ export default (props) => {
                                                         setHasAccount(!hasAccount);
                                                         clearInput();
                                                         clearError();
-                                                    }}>Sign In</span></h4>
+                                                    }}><a href="/dashboard">Sign In</a></span></h4>
 
 
                                                 </div>
