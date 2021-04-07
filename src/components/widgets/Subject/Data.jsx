@@ -69,11 +69,11 @@ const Data = [
             //class 12
             {
                 name: "Physics",
-                id: "121",
+                id: 121,
             },
             {
                 name: "Chemistry",
-                id: "122",
+                id: 122,
             }
             ,
             {

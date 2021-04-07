@@ -11,8 +11,8 @@ console.log(Data);
 const obj = {
     minHeight: "100vh",
     minWidth: "100vw",
-    marginTop: "100px",
-    marginBottom: "100px"
+    paddingTop: "100px",
+    paddingBottom: "100px"
 }
 export default (props) => {
 
@@ -47,7 +47,7 @@ export default (props) => {
             <HeaderData data={state.data.menu} />
             <Header img={state.data.header_bgs.contacts}></Header>
             <div className="d-flex justify-content-around align-items-center flex-column flex-wrap chapter" style={obj}>
-                <h1 style={{ fontSize: "30px", marginBottom: "100px", color: "#1e7088", fontWeight: "900", backgroundColor: "#ffffff" }}>{name}</h1>
+                <h1 style={{ fontSize: "30px", marginBottom: "100px", color: "#1e7088", fontWeight: "900", backgroundColor: "transparent" }}>{name}</h1>
                 <div className=" d-flex justify-content-around align-items-center flex-wrap" >
                     {
                         Data[ind][id % 10 - 1].map((value, index) => {

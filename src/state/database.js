@@ -35,20 +35,20 @@ const database = {
     {
       icon: "las la-brain",
       text:
-        "lorem ipsum lorem ipsum lorem ipsum lorem sipsu lorme isp sdf djkj ikldjflk sskldfj ldf .df kjlj .",
-      title: "#1 Mind Diversity",
+        "In youtube we have different kind of video which divert our mind into other thing which is not good in stduy.",
+      title: "Mind Diversity",
     },
     {
       icon: "las la-business-time",
       text:
-        "lorem ipsum lorem ipsum lorem ipsum lorem sipsu lorme isp sdf djkj ikldjflk sskldfj ldf .df kjlj .",
-      title: "#2 Assurance",
+        "We track your progress so that we can warn you how much path you have completed or how much is there to achieve.",
+      title: "Assurance",
     },
     {
       icon: "las la-file-invoice-dollar",
       text:
-        "lorem ipsum lorem ipsum lorem ipsum lorem sipsu lorme isp sdf djkj ikldjflk sskldfj ldf .df kjlj . ",
-      title: "#3 Liability",
+        "We think education has to be free. It's a right of every citizen to get education of free of cost. With that intention every thing here is free of cost.",
+      title: "Liability",
     },
   ],
   header_bgs: {
@@ -140,126 +140,7 @@ const database = {
       heading: "Lecture-9 (Screw Gauge Or Micrometer Screw Gauge)",
       link: "https://www.youtube.com/watch?v=RVqmzuHyCA4&list=PLF_7kfnwLFCFFKkWI8iRKE2RW7-orWJ2N&index=9",
     },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "Python Tutorial",
-    //   link: "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-    // },
+
   ]
 };
 

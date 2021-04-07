@@ -44,11 +44,11 @@ export default () => {
         <span className={styles.divider} style={{ borderColor: THEME.color }} />
       </Layout>
 
-      <Layout col="2">
+      {/* <Layout col="2">
         <div className={styles.wrapper}>
           <ContactForm style={{ border: "1px solid #eee" }} />
         </div>
-      </Layout>
+      </Layout> */}
     </Fragment>
   );
 };

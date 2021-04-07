@@ -13,6 +13,8 @@ const App = (props) => {
   }
   const anObj = {
     position: "absolute",
+    fontSize: "30px",
+    fontWeight: "700",
     top: "15px"
   }
   const Deco = {
@@ -39,7 +41,7 @@ const App = (props) => {
                     return (
                       <>
                         <NavLink exact to={`/subject/${value.id}`} style={{ listStyle: "none", textDecoration: "none" }}>
-                          <li style={Deco} style={{ color: "black", textDecoration: "none" }} >{value.name}</li>
+                          <li style={Deco} style={{ color: "black", textDecoration: "none", padding: "8px" }} >{value.name}</li>
                         </NavLink>
                       </>
                     )

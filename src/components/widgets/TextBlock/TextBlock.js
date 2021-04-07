@@ -12,20 +12,15 @@ export default () => {
       <article className={styles.wrapper}>
         <div className={styles.info}>
           <span className={styles.subtitle} style={{ color: THEME.primary }}>
-            Company info
+            Our Goal
           </span>
-          <h2>We create opportunity for new markets &amp; industries</h2>
+          <h2>We create opportunity for those who really want to learn</h2>
           <p className={styles.paragraph}>
-            Collaboratively synergize extensible ROI whereas turnkey e-tailers.
-            Dramatically generate efficient mindshare vis-a-vis optimal
-            technology. Objectively benchmark cross functional internal or
-            "organic" sources without revolutionary collaboration and
-            idea-sharing.
+            Education is for all. Everyone in the world has the chance to learn whatever he wants. With this goal in mind, we all know that youtube is a great source of learning. But due to other content available on youtube focusing on learning is difficult. To solve this problem we came with a solution to organize youtube for education.
           </p>
           <p className={styles.paragraph}>
             <b>
-              Uniquely innovate exceptional leadership skills whereas
-              multidisciplinary paradigms. Energistically synergy whereas
+              Uniquely innovate way of learning free.Energistically synergy whereas
               interactive schemas.
             </b>
           </p>
